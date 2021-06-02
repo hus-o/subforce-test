@@ -7,5 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: ["postcss-import", "tailwindcss", "autoprefixer"],
+  plugins: [],
 }
