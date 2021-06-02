@@ -7,7 +7,7 @@ export default function DropdownMenu() {
             <>
       <Menu.Button className="focus:outline-none">Menu</Menu.Button>
       <div className={`${open && "fixed inset-0 h-full w-full bg-black opacity-50 cursor-default"}`}></div>
-      <Menu.Items className="absolute bg-gray-50 shadow-lg flex flex-col justify-evenly h-28 w-36">
+      <Menu.Items className="absolute menu-small bg-gray-50 shadow-lg flex flex-col justify-evenly h-28 w-36">
         <Menu.Item>
           {({ active }) => (
             <a

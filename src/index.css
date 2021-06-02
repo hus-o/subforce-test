@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 768px){
+.menu-small{
+    top: 25px;
+    left:50px
+}}
+
+@media (min-width: 1024px){
+.ad-big{
+    width: 150px;
+    height: 1000px;
+}}
+
+
+body{
+    background-image: url("\imagebg.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.search{
+    background-image: url("\searchicon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
